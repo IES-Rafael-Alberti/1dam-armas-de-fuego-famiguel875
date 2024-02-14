@@ -3,7 +3,7 @@ import kotlin.random.Random
 fun main() {
     val pistola = ArmaDeFuego("Pistola", 10, 1, "9mm")
     val rifle = ArmaDeFuego("Rifle", 20, 2, "7.62mm")
-    val bazooka = ArmaDeFuego("Bazooka", 5, 3, "60mm")
+    val bazooka = ArmaDeFuego("Bazooka", 5, 3, "RPG")
 
     println("\nMunición extra = ${ArmaDeFuego.cantidadMunicionExtra} para todas las armas de fuego.\n")
 
