@@ -1,0 +1,3 @@
+interface Disparador {
+    fun disparar()
+}
